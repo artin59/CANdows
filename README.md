@@ -9,13 +9,8 @@ Linux can-utils for Windows. `candump` and `cansend` work with CANable (candleLi
 2. If it says you need the Visual Studio C++ build tools, accept. In the Visual Studio Installer, tick **"Desktop development with C++"** and install, then continue the Rust setup with the default options.
 3. Close and reopen your terminal so the `cargo` command is found.
 
-### 2. Get the code
-Either:
-- **With git:** `git clone <this repo's URL>`, then `cd` into the new folder, or
-- **Without git:** on this GitHub page click **Code → Download ZIP**, unzip it, and open a terminal in the unzipped folder.
-
-### 3. Build and install
-In that folder, run:
+### 2. Build and install
+From repo root run:
 
 ```
 cargo install --path .
